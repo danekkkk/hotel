@@ -125,7 +125,7 @@ gsap.registerPlugin(ScrollTrigger);
             scrollTrigger: {
                 trigger: ".gallery-section",
                 toggleActions: "restart reverse restart reverse",
-                markers: true,
+                // markers: true,
                 start: "365px center",
                 end: "4100px center",
                 // scrub: 1,
@@ -138,7 +138,7 @@ gsap.registerPlugin(ScrollTrigger);
             scrollTrigger: {
                 trigger: ".gallery-section",
                 toggleActions: "restart reverse restart reverse",
-                markers: true,
+                // markers: true,
                 start: "365px center",
                 end: "4100px center",
             },
@@ -151,7 +151,7 @@ gsap.registerPlugin(ScrollTrigger);
             scrollTrigger: {
                 trigger: ".gallery-imgs",
                 toggleActions: "restart reverse restart reverse",
-                markers: true,
+                // markers: true,
                 id: 'zdjęcia',
                 start: '200px 70px',
                 end: "4100px 70%",
