@@ -113,7 +113,8 @@ body {
 }
 
 .preview-section {
-    width: 95%;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     opacity: 0;
@@ -124,7 +125,8 @@ body {
     height: 1075px;
 }
 
-article {position: relative;
+article {
+    position: relative;
 }
 
 article .article-heading {
@@ -330,6 +332,7 @@ article .article-heading {
         padding: 0px 8px;
         width: 100%;
         height: auto;
+    }
 }
 
 @media screen and (max-width: 920px) {
