@@ -118,6 +118,7 @@ body {
     display: flex;
     justify-content: center;
     opacity: 0;
+    overflow: hidden;
 }
 
 .preview-section .mockup {
